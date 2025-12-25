@@ -12,7 +12,7 @@
     </header>
     <main>
         <section id="expense-tracker" class="tracker-input">
-            <form>
+            <form id="expense-form">
                 <div>
                     <label for="expense-name">Expense name: </label>
                     <input type="text" id="expense-name" name="expense-name">
@@ -21,7 +21,11 @@
                     <label for="expense-amount">Amount: </label>
                     <input type="number" id="expense-amount" name="expense-amount">
                 </div>
-                <button type="submit">+ Add Expense</button>
+                <div>
+                    <label for="expense-category">Category: </label>
+                    <input type="text" id="expense-category" name="expense-category">
+                </div>
+                <button type="submit" class="add-expense-btn" id="add-expense-btn">+ Add Expense</button>
             </form>
         </section>
         <section class="list">
