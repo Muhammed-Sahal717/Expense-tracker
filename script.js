@@ -54,7 +54,7 @@ function renderExpenses() {
 
     categoryCount.innerHTML = Object.entries(categoryMap).map(([category, count]) => {
         return `<li>${category}: ${count}</li>`;
-    }).join('');
+    }).join('');    // Object.entries() converts the categoryMap object into an array of [key, value] pairs
 
 }
 renderExpenses();
