@@ -157,7 +157,7 @@ h2 {
 }
 
 /* Utility / Small text */
-#category-counts {
+#category-count {
   margin-top: 1rem;
   font-size: 0.9rem;
   color: var(--text-muted);

@@ -52,6 +52,10 @@ function renderExpenses() {
         return acc;
     }, {});
 
+    categoryCount.innerHTML = Object.entries(categoryMap).map(([category, count]) => {
+        return `<li>${category}: ${count}</li>`;
+    }).join('');
+
 }
 renderExpenses();
 
