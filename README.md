@@ -52,13 +52,13 @@ This project helps track expenses, calculate total spending, and show category-w
 ---
 
 ## Project Structure
-
+```
 expense-tracker/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 
 
 ---
