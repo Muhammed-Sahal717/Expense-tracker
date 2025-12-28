@@ -11,7 +11,7 @@ const expenseForm = document.getElementById('expense-form');
 const categoryCount = document.getElementById('category-count');
 
 expenseForm.addEventListener('submit', function (event) {
-    event.preventDefault();
+    event.preventDefault(); // This means "stop the form from submitting normally", means we will handle it ourselves.
 
     const name = expenseName.value;
     const amount = parseFloat(expenseAmount.value);
