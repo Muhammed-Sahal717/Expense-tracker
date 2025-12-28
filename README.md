@@ -90,3 +90,5 @@ It builds a strong foundation for learning **React, Node.js, and full-stack deve
 ## Author
 
 Built as a learning project while practicing **JavaScript fundamentals** and **frontend architecture**.
+
+
