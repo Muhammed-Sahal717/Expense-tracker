@@ -1,8 +1,10 @@
 /* style.css */
 :root {
-  --primary: #4f46e5;     /* Indigo */
+  --primary: #4f46e5;
+  /* Indigo */
   --primary-hover: #4338ca;
-  --bg-color: #f3f4f6;    /* Light Gray */
+  --bg-color: #f3f4f6;
+  /* Light Gray */
   --card-bg: #ffffff;
   --text-main: #1f2937;
   --text-muted: #6b7280;
@@ -42,7 +44,8 @@ h1 {
 /* Main Container - Constrained width for larger screens */
 main {
   width: 100%;
-  max-width: 500px; /* Keeps it looking like an app on desktop */
+  max-width: 500px;
+  /* Keeps it looking like an app on desktop */
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -135,7 +138,7 @@ h2 {
   background: var(--card-bg);
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
